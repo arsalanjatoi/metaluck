@@ -1,0 +1,844 @@
+.metaluck-header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    height: 80px;
+    background-color: #1a2b3f;
+}
+
+.col-pad {
+    padding-right: 30px !important;
+    padding-left: 42px !important;
+}
+
+.metaluck-header nav {
+    padding: 17px;
+}
+.main-nav-setting li {
+    border: solid 1px transparent;
+}
+
+.main-nav-setting li.active {
+    border: solid 1px #cba46b;
+}
+
+.main-nav-setting ul li a {
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black !important;
+    cursor: pointer;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #cba46b;
+}
+
+.main-nav-setting ul li+li {
+    margin-left: 20px !important;
+}
+
+/* hero-section */
+.hero-bg {
+    position: relative;
+}
+
+.hero-image-setting img {
+    object-fit: cover;
+    object-position: left;
+    width: 100%;
+    height: 440px;
+}
+
+.bg-dark {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.hero-inner-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    padding-bottom: 70px;
+}
+
+.hero-inner-content h6 {
+    font-size: 4vmin;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: justifyAll;
+    color: #cba46b;
+}
+
+.hero-inner-content h5 {
+    font-size: 6vmin;
+    font-weight: normal;
+    text-align: justifyAll;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn-learnmore {
+    background-color: transparent;
+    width: 120px;
+    height: 35px;
+    z-index: 16;
+    color: white;
+    border: solid 2px #cba46b;
+    -webkit-box-shadow: 0px 0px 39px -4px rgba(0, 0, 0, 0.82);
+    -moz-box-shadow: 0px 0px 39px -4px rgba(0, 0, 0, 0.82);
+    box-shadow: 0px 0px 39px -4px rgba(0, 0, 0, 0.82);
+}
+
+/* about us */
+
+.about-us {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.about-us .right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.advance-content p {
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+/* about team */
+
+.about-team {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-content p {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5em;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* product-catagories */
+
+.product-catagories {
+    padding-bottom: 90px;
+    padding-top: 60px;
+}
+
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    position: relative;
+    height: 180px;
+    width: 190px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: all 0.4s linear;
+}
+
+.product-box:hover {
+    background: -moz-linear-gradient(90deg, rgb(224, 224, 224) 0%, rgb(243, 243, 243) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(224, 224, 224) 0%, rgb(243, 243, 243) 100%);
+    background: -ms-linear-gradient(90deg, rgb(224, 224, 224) 0%, rgb(243, 243, 243) 100%);
+    box-shadow: 0px 1px 12.09px 0.91px rgba(0, 0, 0, 0.28);
+}
+
+.product-image a {
+    text-decoration: none;
+    color: rgb(26, 43, 63);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-image h6 {
+    padding-top: 15px;
+    min-width: 180px;
+}
+
+.title h1 {
+    font-size: 42px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* blog section */
+.blog-section {
+    background-color: #f6f6f6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.blog-image img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    height: 160px;
+    border: solid 4px white;
+}
+
+.blog-image {
+    box-shadow: 0px 0px 9.6px 0.4px rgba(0, 0, 0, 0.3);
+}
+
+.blog-post a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog-content {
+    padding: 10px;
+}
+
+.blog-content h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blog-content p {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.blog-catagory {
+    position: absolute;
+    top: 100px;
+    left: -10px;
+    /* transform: translate(0,10%); */
+}
+
+.blog-catagory h6 {
+    background-color: #1a2b3f;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* footer */
+.metaluck-footer {
+    padding-bottom: 40px;
+    background-image: -moz-linear-gradient(-90deg, rgb(26, 55, 90) 0%, rgb(11, 18, 27) 100%);
+    background-image: -webkit-linear-gradient(-90deg, rgb(26, 55, 90) 0%, rgb(11, 18, 27) 100%);
+    background-image: -ms-linear-gradient(-90deg, rgb(26, 55, 90) 0%, rgb(11, 18, 27) 100%);
+
+}
+
+.metaluck-footer hr {
+    background-color: #cba46b;
+    width: 100%;
+    margin-top: -5px;
+}
+
+.metaluck-footer ul {
+    list-style-type: none;
+}
+
+.metaluck-footer .center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center p {
+    color: white;
+    font-size: 14px;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+}
+
+.metaluck-footer #social-icons-bar li i {
+    background-color: #f6f6f6;
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: #193556;
+}
+
+/* #social-icons-bar li i.fa-facebook {
+    color: transparent;
+} */
+.metaluck-footer .footer-top {
+    padding-top: 25px;
+}
+
+.footer-heading {
+    font-size: 14px;
+    color: white;
+}
+
+.form input {
+    border: solid 1px #cba46b;
+    background-color: transparent;
+    border-radius: unset;
+    margin-bottom: 12px;
+    margin-top: 15px;
+}
+
+.btn-submit {
+    color: white;
+    border: solid 2px #cba46b;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-right: 11px;
+    background: transparent;
+}
+
+.mataluck-footer ul {
+    list-style-type: none;
+}
+
+.metaluck-footer ul li {
+    color: white;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.column-3 ul {
+    padding-top: 24px;
+}
+
+.footer-columns {
+    padding-top: 15px;
+}
+
+.copy-right p {
+    color: #cba46b;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* about page styling */
+.about-us-page {
+    padding-top: 90px;
+}
+
+.about-row {
+    margin-bottom: 30px;
+}
+
+.about-us-page .right img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.about-us-page .left {
+    position: relative;
+}
+
+.btn-contact {
+    border-width: 1px;
+    border-color: rgb(203, 164, 107);
+    border-style: solid;
+    background-color: rgb(0, 74, 128);
+    width: 110px;
+    height: 35px;
+    color: white;
+}
+
+.title-about h1 {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+
+.title-about button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contact-us {
+    padding-bottom: 90px;
+}
+
+.hero-section-2 .left .side-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-section-2 .left {
+    background-color: #cba46b;
+    position: relative;
+}
+
+.hero-section-2 .right img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 360px;
+}
+
+/* our team page styling */
+.team-row {
+    margin-bottom: 30px;
+}
+
+.team-row .left {
+    border: solid 1px black;
+    padding: 20px;
+}
+
+.visit-profile-row .left-icon {
+    padding: 0;
+    padding-left: 15px;
+}
+
+.visit-profile-row .right-icon {
+    padding: 0;
+}
+
+.visit-profile-row i {
+    height: 26px;
+    width: 26px;
+    background-color: rgb(0, 132, 177);
+    color: white;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-right: -2px;
+}
+/* 
+.visit-profile-row i.fa-linkedin {
+    height: 26px;
+    width: 26px;
+    background-color: #0084b1;
+    color: white;
+    padding-left: 8px;
+    padding-top: 5px;
+    margin-right: -2px;
+    margin-left: 25px;
+} */
+
+
+.team-heading {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.team-designation {
+    font-size: 16px;
+    color: #c7c8ca;
+}
+
+.visit-profile {
+    width: 110px;
+    height: 29px;
+    border-width: 1px;
+    border-color: rgb(246, 246, 246);
+    border-style: solid;
+    background-color: rgb(0, 132, 177);
+    color: white;
+}
+
+.our-team-page {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.our-team-page .right img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: solid 1px black;
+}
+
+.title-page h1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-bottom: 90px;
+    max-width: 800px;
+}
+
+/* product page styling */
+
+.product-container {
+    background-color: #ebebeb;
+    min-height: 230px;
+    width: 100%;
+    position: relative;
+}
+
+.product-pic {
+    height: 100px;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-pic img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 25px;
+}
+
+.product-content {
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* .product-content h4 {
+    margin-top: px;
+    margin-left: 25px;
+    margin-right: 25px;
+} */
+
+.arrow img {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.product-row {
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+/* news article page styling */
+
+.news-section {
+    background-color: #f6f6f6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.cover-image {
+    height: 235px;
+}
+
+.news-content {
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.btn-news {
+    color: white;
+    background-color: rgb(0, 74, 128);
+    box-shadow: 0px 0px 9.6px 0.4px rgba(0, 0, 0, 0.2);
+    border: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blog-row {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.news-content p {
+    max-width: 450px;
+}
+
+.news-cover {
+    background-color: white;
+    padding: 5px;
+}
+
+.news-cover .left {
+    background-color: #f6f6f6;
+}
+
+.news-cover .right {
+    background-color: #f6f6f6;
+}
+
+.cover-image img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+
+.news-heading {
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.blog-catagory-1 {
+    position: absolute;
+    top: 100px;
+    left: -10px;
+    /* transform: translate(0,10%); */
+}
+
+.blog-catagory-1 h6 {
+    background-color: #004a80;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-loadmore {
+    border-width: 1px;
+    border-color: rgb(203, 164, 107);
+    border-style: solid;
+    background-color: rgb(0, 74, 128);
+    width: 247px;
+    height: 35px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+/* energy-product page styling */
+
+.products-main-row {
+    padding-top: 90px;
+    /* padding-bottom: 90px; */
+}
+
+/* contact us page styling */
+
+.bg-color {
+    background-color: #f6f6f6;
+}
+
+.main-contact-form {
+    background-color: white;
+    padding: 45px;
+    margin-bottom: 90px;
+    box-shadow: 0px 1px 16.74px 1.26px rgba(0, 0, 0, 0.17);
+}
+
+.contact-title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-main-title {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.left-content ul {
+    list-style-type: none;
+    border: solid 0.5px black;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-content ul li {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.left-content ul li+li {
+    margin-bottom: 15px;
+}
+
+.left-content ul li.phone {
+    margin-bottom: 0px;
+}
+
+.left-content h6 {
+    font-size: 15px;
+}
+
+.g-map {
+    width: 100%;
+    height: 100%;
+}
+
+.main-contact-form .right {
+    border: solid 1px black;
+    min-height: 350px;
+}
+
+.form-title {
+    font-size: 30px;
+    /* position: relative; */
+}
+
+.form-main-title {
+    padding-top: 50px;
+}
+
+/* .form-title::after {
+    content: "";
+    height: 1px;
+    min-width: 800px;
+    background-color: rgb(203, 164, 107);
+    position: absolute;
+    bottom: 0;
+} */
+.form-row-main {
+    padding-top: 50px;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-row .left-form {
+    padding-right: 15px;
+}
+
+.form-row .rigth-form {
+    padding-left: 15px;
+}
+
+.contact-form input {
+    border: solid 1px #cba46b;
+    background-color: transparent;
+    border-radius: unset;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.contact-form input::placeholder {
+    color: #cba46b;
+}
+
+.contact-form textarea::placeholder {
+    color: #cba46b;
+}
+
+.contact-form textarea {
+    border: solid 1px #cba46b;
+    background-color: transparent;
+    border-radius: unset;
+    margin-bottom: 12px;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+.send-bar {
+    display: flex;
+    align-items: center;
+}
+
+.send-bar a {
+    color: #cba46b;
+}
+
+.btn-send {
+    width: 130px;
+    height: 41px;
+    border-width: 1px;
+    border-color: rgb(203, 164, 107);
+    border-style: solid;
+    background-color: rgb(26, 43, 63);
+    font-size: 14px;
+    color: white;
+
+}
+
+.send-bar p {
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+.product-description {
+    padding-top: 50px;
+}
+
+.products-main-row .left img {
+   
+    margin-bottom: 25px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 260px;
+}
+
+.products-main-row .right img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    min-height: 260px;
+    margin-bottom: 25px;
+}
+
+.sub-product-row .right img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 260px;
+}
+
+.sub-product-row {
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.product-list-content ol {
+    padding-left: 15px;
+}
+
+.list-product-row {
+    padding-bottom: 90px;
+}
+

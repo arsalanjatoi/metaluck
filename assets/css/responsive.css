@@ -1,0 +1,113 @@
+@media screen and (max-width: 991px) {
+    ul.navbar-nav {
+        background-color: black;
+        text-align: center;
+        opacity: 0.9;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+    .dropdown-menu {
+        z-index: 1000;
+        display: none;
+        float: left;
+        /* padding: 0.5rem 50px; */
+        font-size: 1rem;
+        color: white;
+        text-align: left;
+        list-style: none;
+        background-color: #cba46b;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: .25rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dropdown-menu .dropdown-item {
+        color: white !important;
+    }
+    .dropdown-item.active, .dropdown-item:active {
+        color: #fff;
+        text-decoration: none;
+        background-color: black;
+    }
+    .visit-profile-row .left-icon {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .visit-profile-row .right-icon {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .visit-profile-row i.fa-pinterest-p {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-top #social-icons-bar {
+        flex-wrap: wrap;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    .footer-columns{
+        text-align: center;
+    }
+    .hero-section-2 .left {
+        min-height: 200px;
+    }
+    .hero-section-2 .right img {
+        min-height: 220px;
+    }
+    .send-bar {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .form-row-main .left-form, .form-row-main .right-form {
+        padding: 0;
+    }
+    .form-row-main {
+        margin: 0;
+    }
+    .product-container {
+        margin-bottom: 25px;
+    }
+    .main-nav-setting li.active {
+        margin: 10px;
+    }
+    .main-nav-setting ul li+li {
+        margin: 10px !important;
+    }
+    .team-row .left {
+        margin: 15px;
+    }
+    .visit-profile-row .left-icon {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .visit-profile-row .right-icon {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .visit-profile-row i.fa-linkedin {
+        margin-left: 0px;
+    }
+    .footer-columns ul {
+        padding: 0 !important;
+    }
+    .footer-top ul {
+        padding: 0 !important;
+    }
+
+}
+
+@media screen and (max-width: 480px) {}
